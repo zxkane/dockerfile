@@ -8,3 +8,5 @@ Usage:
 ```shell
 docker pull registry.cn-beijing.aliyuncs.com/zxkane/aliyun-fc-fun:2.7.2
 ```
+### aliyuncli
+[alipine aliyuncli](https://hub.docker.com/r/ellerbrock/alpine-aliyuncli) with json cli tool [jq](https://github.com/stedolan/jq)
