@@ -9,9 +9,9 @@ Usage:
 docker pull registry.cn-beijing.aliyuncs.com/zxkane/aliyun-fc-fun:2.7.2
 ```
 ### [aliyuncli](https://cr.console.aliyun.com/repository/cn-beijing/zxkane/aliyuncli/detail)
-[alipine aliyuncli](https://hub.docker.com/r/ellerbrock/alpine-aliyuncli) with json cli tool [jq](https://github.com/stedolan/jq)
+[aliyun-cli go version](https://github.com/aliyun/aliyun-cli) with json cli tool [jq](https://github.com/stedolan/jq)
 
 Usage:
 ```shell
-docker pull registry.cn-beijing.aliyuncs.com/zxkane/aliyuncli
+docker pull registry.cn-beijing.aliyuncs.com/zxkane/aliyuncli:3.0.6
 ```
