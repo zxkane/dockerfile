@@ -7,5 +7,7 @@ RUN apk add curl && \
     | tar -zxC /usr/local/bin
 
 FROM alpine:3.8
+RUN apk add --update ca-certificates && \
+    update-ca-certificates
 COPY --from=builder /usr/local/bin/jq /usr/local/bin/jq
 COPY --from=builder /usr/local/bin/aliyun /usr/local/bin/aliyun
